@@ -1,4 +1,25 @@
 {
-	"$schema": "https://inlang.com/schema/inlang-message-format",
-	"hello_world": "Hello, {name} from en!"
+  "$schema": "https://inlang.com/schema/inlang-message-format",
+  "heading_m1": "Become a Skilled Tattoo Artist in Just 5 Weeks",
+  "heading_m2": "Learn From a Pro With 10 Years of Experience",
+  "subheading_m1": "Hands-on training",
+  "subheading_m2": "Real practice",
+  "subheading_m3": "Personal mentorship",
+  "subheading_m4": "Gain the skills, confidence, and knowledge to create your first tattoo",
+  "subheading_m5": "and start building your career as an artist",
+  "sec1_intro1": "Stop wasting time piecing together random YouTube tutorials",
+  "sec1_intro2": "In this intensive 5-week course, you’ll:",
+  "sec1_item1": "Learn how to tattoo step by step",
+  "sec1_item2": "Master preparation, technique & hygiene",
+  "sec1_item3": "Build your personal brand as a tattoo artist",
+  "sec1_item4": "Get personal mentorship from an experienced artist",
+  "sec1_item5": "Do your first real tattoo with full support",
+  "sec1_item6": "Leave ready to start your tattoo career with confidence.",
+  "sec1_details1": "📆 Duration: 1 month + 1 week",
+  "sec1_details2": "🕒 Schedule: 2 lessons/week • 3–4 hours each",
+  "sec1_details3": "👨‍🏫 Instructor: Personal guidance from Giorgi Jankhoteli",
+  "sec1_details4": "✨ Spots are limited — this is a hands-on experience, not a big lecture.",
+  "sec1_cta1": "✅ Apply Now",
+  "sec1_cta2": "🔥 Reserve Your Spot",
+  "address": "Address: I. Tchavtchavadze 37d. Jankhotely tattoo gallery"
 }
