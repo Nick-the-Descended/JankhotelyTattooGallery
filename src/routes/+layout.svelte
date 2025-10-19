@@ -22,7 +22,7 @@
 	{#each locales as locale}
 		<button
 			class:selected={locale === current}
-			on:click={() => switchLocale(locale)}
+			onclick={() => switchLocale(locale)}
 			title={`Switch to ${locale}`}
 		>
 			{locale === 'en' ? 'EN' : locale === 'ka-ge' ? 'KA' : locale}
