@@ -4,43 +4,38 @@
 </script>
 
 <section class="hero w-full relative">
-    <div class="absolute bottom-8 left-8 z-1 text-2xl text-white">
-        <h1 class="font-bold text-6xl leading-16">
+    <div class="absolute bottom-4 left-4 md:bottom-8 md:left-8 z-1 text-white">
+        <h1 class="font-bold text-2xl sm:text-3xl md:text-6xl leading-tight">
             {m.heading_m1()}
         </h1>
-        <h1 class="font-bold text-6xl leading-16">
+        <h1 class="font-bold text-2xl sm:text-3xl md:text-6xl leading-tight">
             {m.heading_m2()}
         </h1>
-        <h2 class="mt-4 opacity-90 text-4xl ">
-            {m.heading_m3()}
-            {m.heading_m4()}
+        <h2 class="mt-2 sm:mt-4 opacity-90 text-xl sm:text-2xl md:text-4xl">
+            {m.heading_m3()} {m.heading_m4()}
         </h2>
     </div>
     <div class="max-h-[90vh] overflow-clip object-cover">
-        <img src="/hero.png" class="w-full object-cover object-left max-h-[90vh]" alt="hero banner"/>
+        <img src="/hero.png" class="w-full object-cover object-left max-h-[90vh]" alt="hero banner" />
     </div>
 </section>
 
-<section class="w-full min-h-[65vh] flex flex-col items-center justify-between p-8 gap-4 bg-gray-200">
-    <div class="flex gap-2 text-4xl font-bold">
-        <h2>{m.subheading_m1()}</h2>
-        •
-        <h2>{m.subheading_m2()}</h2>
-        •
-        <h2>{m.subheading_m3()}</h2>
+<section class="w-full min-h-[65vh] flex flex-col items-center justify-between p-4 sm:p-8 gap-4 bg-gray-200">
+    <div class="flex flex-wrap justify-center gap-2 text-2xl sm:text-3xl md:text-4xl font-bold text-center">
+        <h2>{m.subheading_m1()}</h2> • <h2>{m.subheading_m2()}</h2> • <h2>{m.subheading_m3()}</h2>
     </div>
-    <div class="flex gap-2 text-2xl font-semibold">
+    <div class="flex flex-wrap justify-center gap-2 text-lg sm:text-xl md:text-2xl font-semibold text-center">
         <h2>{m.subheading_m4()}</h2>
         <h2>{m.subheading_m5()}</h2>
     </div>
-    <div class="grid grid-cols-2 gap-0 rounded-xl overflow-clip bg-gray-800 max-h-[80svh] aspect-[1272/953]">
-        <img src="/banner2.png" class="object-fill">
-        <img src="/banner1.png" class="object-fill">
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-0 rounded-xl overflow-clip bg-gray-800 max-h-[80svh] w-full">
+        <img src="/banner2.png" class="object-cover w-full h-full max-md:hidden">
+        <img src="/banner1.png" class="object-cover w-full h-full">
     </div>
 </section>
 
 <section>
-    <h1 class="text-6xl text-center py-8 mt-8">
+    <h1 class="text-4xl sm:text-5xl md:text-6xl text-center py-8 mt-8">
         {m.our_work()}
     </h1>
     <div class="collage grid grid-rows-[repeat(3,240px)] overflow-hidden">
